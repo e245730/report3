@@ -1,5 +1,5 @@
 import jp.ac.uryukyu.ie.e245730.*;
-//プッシュ練習
+//プッシュ練習2
 public class Main {
     public static void main(String[] args){
         Hero hero = new Hero("勇者", 10, 5);
