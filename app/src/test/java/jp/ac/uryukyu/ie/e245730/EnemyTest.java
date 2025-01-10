@@ -1,7 +1,7 @@
 package jp.ac.uryukyu.ie.e245730;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;  //＠testを使用可能にするためのコード
+import static org.junit.jupiter.api.Assertions.*;  //アサーションメゾットをインポートして使用可能にしている
 
 class EnemyTest {
     /**

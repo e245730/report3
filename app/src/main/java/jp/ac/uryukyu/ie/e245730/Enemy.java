@@ -15,8 +15,9 @@ public class Enemy extends LivingThing {
     @Override
     public void wounded(int damage){
         super.wounded( damage);
-        if(super.isDead());
+        if(super.isDead()){
             System.out.printf("モンスター%sは倒れた。\n",super.getName());
 
+        }
     }
 }

@@ -6,7 +6,7 @@ public class LivingThing {
     private int attack;
     private boolean dead;
 
-//コントラクタ
+//コンストラクタ
     public LivingThing (String name, int hitPoint, int attack) {
         this.name = name;
         this.hitPoint = hitPoint;
@@ -42,6 +42,7 @@ public class LivingThing {
         if( this.hitPoint < 0 ) {
             this.dead = true;
             System.out.printf("%sは倒れた。\n", this.name);
+            
         }
     }
     
